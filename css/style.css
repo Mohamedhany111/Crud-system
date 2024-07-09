@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    background:linear-gradient(356deg , black , rgb(7, 7, 57)) !important;
+    height: 100vh;
+    margin: 0;
+}
+lable{
+  color:rgb(120, 166, 51) !important;
+  font-weight: bold;
+
+}
+input{
+    background-color:white !important;
+}
+.btn{
+    color: white !important;;
+    background-color:rgb(120, 166, 51) !important;
+    border-radius: 24px !important;
+    border: none !important;
+}
+.container .table thead th{
+    color: white  !important
+}
+.container .table tbody tr{
+    color:rgb(120, 166, 51);
+    font-weight: bold
+
+}
+#clear_btn{
+    background-color: brown !important;
+}
+#search{
+    background-color:rgb(120, 166, 51) !important ;
+}
+#delete{
+    background-color: brown !important;
+}
+#update{
+background-color:  white  !important;
+border: none !important;
+color:rgb(120, 166, 51) !important;
+
+
+}

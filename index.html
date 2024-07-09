@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud system</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+<!-- start input form -->
+    <div class="container py-5">
+        <lable >Name:</lable>
+        <input type="text" class="form-control my-2" id="name_user">
+        <lable>email:</lable>
+        <input type="text" class="form-control my-2" id="email_user">
+        <lable>age:</lable>
+        <input type="text" class="form-control my-2" id="age_user">
+        <lable>country:</lable>
+        <input type="text" class="form-control my-2" id="country_user">
+        <button class="btn btn-danger" id="clear_btn">clear</button>
+        <button id="add_btn" class="btn btn-info my-3">sumbit</button>
+    </div>
+<!-- end input form  -->
+<!-- start table -->
+<div class="container">
+    <table class="table mt-5 text-center">
+           <thead>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Country</th>
+           </thead> 
+
+    <div class="m-auto w-50 py-2">
+        <input onkeydown="search(this.value)" placeholder="search" class="form-control" id="search">
+    </div> 
+           <tbody id="tbody">
+
+
+           </tbody>
+    </table>
+</div>
+<!-- end table -->
+    <!-- js links -->
+    <script src="./js/network.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>
